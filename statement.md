@@ -1,7 +1,9 @@
+STATEMENT
+
 PROBLEM STATEMENT
-Students frequently have difficulties making an estimate of the expected exam score, based on their study habits and attendance.
-Due to the lack of a simply usable tool to make that estimate, it is often difficult to formalize an understanding of the manner 
-in which study habits and attendance will impact exam score outcomes. This project attempts to address this problem by creating a lightweight console application that predicts exam scores based on a simple machine learning model (linear regression).
+- Students frequently have difficulties making an estimate of the expected exam score, based on their study habits and attendance.
+- Due to the lack of a simply usable tool to make that estimate, it is often difficult to formalize an understanding of the manner in which study habits and attendance will impact exam score outcomes.
+-  This project attempts to address this problem by creating a lightweight console application that predicts exam scores based on a simple machine learning model (linear regression).
 
 SCOPE OF PROJECT
 - Assist students gain awareness of the affects of their study behavior on outcomes and possibly inspire them to improve.  
@@ -21,4 +23,5 @@ HIGH LEVEL FEATURES
 - Training the Model: Training step using linear regression utilizing gradient descent.  
 - Evaluating Performance: Calculating the training and validation errors using Mean Squared Error calculation.  
 - User-Sentience Interactivity: Allows for user input and instant predictions of exam scores.  
+
 - Educational Benefit: All code and intent are very clear, has lots of inline comments, and has straightforward coding logic which   allows to study and/or extend the project easily.  
