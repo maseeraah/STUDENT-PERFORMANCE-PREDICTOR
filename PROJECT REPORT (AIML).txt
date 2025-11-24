@@ -1,0 +1,116 @@
+PROJECT TITLE : THE STUDENT PERFORMANCE PREDICTOR 
+COURSE : FUNDAMENTALS OF AIML
+SUBMITTED BY : MASEERA ANEES 25BCY10033 
+VIT BHOPAL
+DATE : 25 NOVEMBER 2025
+
+2. Introduction
+Educators are utilizing Artificial Intelligence (AI) and Machine Learning (ML) to
+establish predictive analytics in education. In this project, a common application 
+of linear regression is outlined to predict student exam scores using study hours and attendance rate. 
+The project is designed to have a syllabus alignment to illustrate a problem-solving agent, knowledge 
+representation, probability/statistics, and basics of machine learning.
+
+. Problem Statement
+Students, parents, and educators often do not find an easy way to estimate how study habits and 
+attendance relate to exam success. 
+The project aims to alleviate this problem by developing a lightweight predictor that utilizes machine 
+learning to generate score estimates, therefore motivating students and assisting educators to find at-risk
+learners.
+
+4. Functionality Requirements
+
+Accept input dataset of student records (hours studied, attendance rate, exam score). 
+
+Train a linear regression (using gradient descent) to model the data set. 
+
+Evaluate how well the model worked by using the Mean Squared Error (MSE) method. 
+
+Accept user input (hours studied, attendance rate), and then predict the exam score. 
+
+Clearly display the results in the console. 
+
+5. Non-Functional Requirements
+
+Usability: Simple console interface, useable for novices. 
+
+Performance: Fast execution on small data sets, and no library dependencies. 
+
+Portability: Runs on any system that has Python version 3.x installed.
+
+Maintainability: Easy to extend with comments and modular functions.
+
+Reliability: Gives consistent predictions for the inputs.
+
+6. System Architecture Design Choices & Reasoning
+Architecture: Single-module console application.
+
+Design Choice: Linear regression for simplicity and syllabus fit.
+
+Reasoning:
+
+Linear regression is more interpretable and easy to implement.
+
+Gradient descent is a good candidate that can also scale to larger datasets.
+
+Staying in the console simplifies the design for a lightweight and easily accessible approach.
+
+7.IMPLEMENTATION DETAILS 
+
+Language: Python 3.x
+
+Modules Used: random (for shuffling dataset)
+
+Core Functions:
+
+train_linear_regression() → trains model using gradient descent.
+
+mse() → calculates mean squared error.
+
+main() → handles dataset, training, evaluation, and user prediction.
+
+Dataset: Small synthetic dataset of 7 student records.
+
+Output: Learned weights, training/validation MSE, predicted exam score.
+
+8. TESTING APPROACH
+
+Unit Testing: Verified correctness of gradient descent updates and MSE calculation.
+
+Functional Testing: Checked predictions for different inputs (hours, attendance).
+
+Validation Testing: Compared training vs validation error to detect overfitting.
+
+User Testing: Ensured console prompts are clear and easy to follow.
+
+9. CHALLANGES FACED 
+
+Understanding gradient descent and weight updates.
+
+Balancing simplicity with syllabus coverage.
+
+Designing comments and documentation to feel authentic and humanized.
+
+Ensuring predictions remain realistic with a small dataset.
+
+10. LEARNINGS
+
+Learned how linear regression models are trained using gradient descent.
+
+Understood the importance of evaluation metrics like MSE.
+
+Experienced how AI concepts can be applied to real-world problems in education.
+
+Gained practice in writing clear, human-style comments and documentation.
+
+11. FUTURE ENHANCEMENTS
+
+Expand dataset with more features (previous grades, participation, assignments).
+
+Add visualization of regression line and error metrics.
+
+Integrate classification (e.g., pass/fail prediction).
+
+Build a GUI or web interface for broader usability.
+
+Explore advanced ML models (decision trees, neural networks).
